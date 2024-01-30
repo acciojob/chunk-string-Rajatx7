@@ -1,9 +1,9 @@
 function stringChop(str, size) {
   // your code here
 	let len=size;
-	 if(len<=0){
-        return [];
-    }
+	 if (!str) {
+    return [];
+  }
 
     let result=[];
 
